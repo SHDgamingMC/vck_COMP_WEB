@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Guardian-About</title>
+    <link rel="icon" type="image/x-icon" href="./C-removebg-preview.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="glitch-wrapper">
+              <a href="./index.html"><div class="glitch" data-glitch="FUTURE READY">Cyber Guardian</div></a>
+           </div>
+        <div class="navi"> 
+           <a href="./learnmore.html"><div class="glitch-container">
+            LEARN MORE
+            <span>LEARN MORE</span>
+            <span>LEARN MORE</span>
+          </div></a>
+
+          <a href="./resources.html"><div class="glitch-container">
+            RESOURCES
+            <span>RESOURCES</span>
+            <span>RESOURCES</span>
+          </div></a>
+
+          <a href="./about.html"><div class="glitch-container">
+            ABOUT
+            <span>ABOUT</span>
+            <span>ABOUT</span>
+          </div></a>
+
+          <a href="./contact.html"><div class="glitch-container">
+            CONTACT
+            <span>CONTACT</span>
+            <span>CONTACT</span>
+          </div></a>
+        </div> 
+        </nav>
+  
+
+        <div class="ab">
+          <h1>About Cyber Guardian</h1>
+          <div class="mission">
+            <h2>Mission</h2>
+              <p>Cyber Guardian was created with a simple but crucial mission: to empower individuals with the knowledge and tools they need to navigate the digital world safely and confidently. We believe that cybersecurity education is essential for everyone in today's interconnected society.
+              </p>
+          </div>
+          <div class="my-story">
+            <h2>My Story</h2>
+            <p>As a passionate advocate for online safety, I was inspired to create Cyber Guardian after witnessing the growing number of cyber threats and the lack of awareness among many individuals. I hope this website serves as a valuable resource for anyone seeking to enhance their cybersecurity posture.</p>
+          </div>
+          
+        </div>
+
+        <!-- footer -->
+<footer>
+  <h3>CyberGuardian</h3>
+  <p> 2025 Cyber Guardian. All rights reserved. </p>
+  <p>&copy; 2025 ,Developed by Suvin</p>
+</footer>
+
+<script src="./script.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  
+  $("a").on('click', function(event) {
+
+    
+    if (this.hash !== "") {
+      
+      event.preventDefault();
+
+      
+      var hash = this.hash;
+
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Guardian - Learn MORE</title>
+    <link rel="icon" type="image/x-icon" href="./C-removebg-preview.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="glitch-wrapper">
+              <a href="./index.html"><div class="glitch" data-glitch="FUTURE READY">Cyber Guardian</div></a>
+           </div>
+        <div class="navi"> 
+           <a href="./learnmore.html"><div class="glitch-container">
+            LEARN MORE
+            <span>LEARN MORE</span>
+            <span>LEARN MORE</span>
+          </div></a>
+
+          <a href="./resources.html"><div class="glitch-container">
+            RESOURCES
+            <span>RESOURCES</span>
+            <span>RESOURCES</span>
+          </div></a>
+
+          <a href="./about.html"><div class="glitch-container">
+            ABOUT
+            <span>ABOUT</span>
+            <span>ABOUT</span>
+          </div></a>
+
+          <a href="./contact.html"><div class="glitch-container">
+            CONTACT
+            <span>CONTACT</span>
+            <span>CONTACT</span>
+          </div></a>
+        </div> 
+        </nav>
+
+
+
+        <!--  -->
+        <div class="learn">
+            <h1>Essential Cybersecurity Practices</h1>
+            
+            <div class="con">
+                
+                   <center> <div class="strong hidden">
+                        <h3>Building Your First Line of Defense: Strong Passwords</h3>
+                        <p>A strong password is the first and most crucial step in protecting your online accounts. It should be unique, complex, and difficult to guess.</p>
+                        <ul>
+                            <li>Use a combination of uppercase and lowercase letters, numbers, and symbols.</li>
+                            <li>Aim for at least 12 characters.</li>
+                            <li>Avoid using personal information or common words.</li>
+                            <li>Consider using a passphrase (a series of words) that's easy for you to remember but hard for others to guess.</li>
+                            <li>Don't reuse passwords across multiple accounts.</li>
+                        </ul>
+                    </div></center>
+
+                    <center><div class="scams hidden">
+                        <h3>Don't Get Hooked: Recognizing Phishing Scams</h3>
+                        <p>Phishing is a cyberattack where attackers try to trick you into giving them your personal information (like passwords or credit card details) by posing as a trustworthy entity.</p>
+                        <ul>
+                            <li>Look for suspicious email addresses or links.</li>
+                            <li>Be wary of urgent or threatening language.</li>
+                            <li>Check for grammatical errors or typos.</li>
+                            <li>Hover over links to see the actual destination before clicking.</li>
+                            <li>Never click on links or attachments from unknown senders.</li>
+                        </ul>
+                    </div></center>
+
+                    <center><div class="control hidden">
+                        <h3>Taking Control: Managing Your Online Privacy</h3></li>
+                        <p> Social media platforms and other websites collect data about you. It's important to understand your privacy settings and adjust them to control what information is shared.</p>
+                        <ul>
+                            <li>Review the privacy policies of the websites and apps you use.</li>
+                            <li>Limit the personal information you share publicly.</li>
+                            <li>Be mindful of the photos and videos you post.</li>
+                            <li>Adjust your privacy settings to control who can see your content and contact you.</li>
+                        </ul>
+                    </div></center>
+
+                    <center><div class="update hidden">
+                        <h3>Stay Up-to-Date: The Importance of Software Updates</h3>
+                        <p>Software updates often include security patches that fix vulnerabilities that attackers could exploit. Keeping your software updated is crucial for preventing malware infections and other cyber threats.</p>
+                        <ul>    
+                            <li>Enable automatic updates whenever possible.</li>
+                            <li>Regularly check for updates for your operating system, web browser, and other applications.</li>
+                            <li>Don't ignore update notifications.</li>
+                        </ul>
+                    </div></center>
+
+                    <center><div class="wifi hidden">
+                        <h3>Wi-Fi Safety: Protecting Yourself on Public Networks</h3>
+                        <p> Public Wi-Fi networks are often unsecured, making your data vulnerable to interception by attackers.</p>
+                        <ul>
+                            <li>Avoid using public Wi-Fi for sensitive activities like online banking or shopping.</li>
+                            <li>Use a Virtual Private Network (VPN) to encrypt your internet traffic when using public Wi-Fi.</li>
+                            <li>Look for HTTPS in website addresses to ensure a secure connection.</li>
+                        </ul>
+                    </div></center>
+                
+            </div>
+        </div>
+    
+
+<!-- footer -->
+<footer>
+    <h3>CyberGuardian</h3>
+    <p> 2025 Cyber Guardian. All rights reserved. </p>
+    <p>&copy; 2025 ,Developed by Suvin</p>
+  </footer>
+  
+  <script src="./script.js"></script>
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    
+    $("a").on('click', function(event) {
+  
+      
+      if (this.hash !== "") {
+        
+        event.preventDefault();
+  
+        
+        var hash = this.hash;
+  
+        
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+  
+          
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+  </script>
+
+
+
+
+</body>
+</html>
